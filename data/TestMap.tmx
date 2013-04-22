@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset_standard" tilewidth="32" tileheight="32">
+  <image source="tileset_standard.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="wall"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="wall"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="enemy"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="playerspawn"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Objects" width="32" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA8VVAQrAIAhMaP//8hhsIHJeaS0FGTS9u27WpLUmxVkVJ/j7Bv6/vLKYHr6o56oO7ceIvzvrAt5n5grxo37Eh/QgbKaL6WS+RDCYDzO9qCbis66xZyGrLzqDWX+ieDa8+czw23ODNLHvhcLWsruK4bF9rcznbM/IjxHW6f+VnQtPW2Q9Ezv4L4Ibvf927fmpn5nlj7+/WcVfmTcfSnN3AAoAAA==
+  </data>
+ </layer>
+</map>
